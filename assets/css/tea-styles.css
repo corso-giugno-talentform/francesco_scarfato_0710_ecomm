@@ -1,0 +1,20 @@
+#free-shipping {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+}
+
+#free-shipping>p {
+    margin: auto 0;
+    text-align: center;
+    width: inherit;
+    font-size: 14px;
+    font-weight: bold;
+}
+#nav-bar {}
+#welcome {}
+#cards {}
+#love-out-tea {}
+#footer {}

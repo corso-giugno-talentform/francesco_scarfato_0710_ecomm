@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: .8em;
+}
+
 #free-shipping {
     background-color: #000;
     display: flex;
@@ -26,18 +30,18 @@ a {
 }
 
 #welcome{
-    border-bottom: 1px solid #000;
     display: inline-flex;
     height: 320px;
 }
 
 #welcome-img {
     display: flex;
-    background-color: white;
-    justify-content:center;
+    width: fit-content;
 }
 
 #welcome-txt {
+    border-bottom: 1px solid #ccc;
+    margin: 100px;
 }
 
 #tea-cards,
@@ -63,4 +67,32 @@ a {
     width: 80px;
     background-color: #fff;
     padding: 10px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-nav>a {
+    display: inline-flex;
+    width:fit-content;
+}
+
+.flex-gap-nav-item {
+    gap: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#stars > ul.list-group-horizontal > li.list-group-item {
+    border: 0;
+    font-size: .5em;
+    padding:4px;
+    
+}
+
+span.badge {
+    width: fit-content;
+    display: flex;
 }
